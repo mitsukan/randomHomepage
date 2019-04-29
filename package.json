@@ -1,0 +1,23 @@
+{
+  "name": "randomhomepage",
+  "version": "1.0.0",
+  "description": "Hello.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitsukan/randomHomepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitsukan/randomHomepage/issues"
+  },
+  "homepage": "https://github.com/mitsukan/randomHomepage#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "unsplash-js": "^5.0.0"
+  }
+}
