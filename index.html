@@ -18,30 +18,22 @@
 
   <body>
 
-    <!-- <form method="get" action="http://www.google.com/search">
-      <div style="border:2px dotted black;padding:4px;width:15em;">
-        <table border="0" align="center" cellpadding="0">
-          <tr><td>
-          <input type="text"   name="q" size="25" style="color:#808080;"
-          maxlength="255" value="Google site search"
-          onfocus="if(this.value==this.defaultValue)this.value=''; this.style.color='black';" onblur="if(this.value=='')this.value=this.defaultValue; "/>
-          <input type="submit" value="Go!" />
-          <input type="hidden" name="sitesearch" value="yoursite.com" /></td></tr>
-        </table>
-      </div>
-    </form> -->
-
     <div class="container h-100">
       <div class="d-flex justify-content-center h-100">
         <div class="searchbar">
-          <input class="search_input" type="text" name="" placeholder="Search...">
-          <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+        <form method="get" action="http://www.google.com/search" class="form-inline mr-auto">
+
+          <input type="text" class="form-control mr-sm-2"  name="q" size="25" style="color:#808080;"
+          maxlength="255" value="Google site search"
+          onfocus="if(this.value==this.defaultValue)this.value=''; this.style.color='black';" onblur="if(this.value=='')this.value=this.defaultValue; "/>
+        <button type="submit" value="Go!" class="btn btn-unique btn-rounded btn-sm my-0"/>Search</button>
+
+          </form>
         </div>
       </div>
     </div>
 
-    <!-- <div class="bg"></div> -->
 
   </body>
-    <script src="./scripts/app.js"></script>
+    <script src="./app.js"></script>
 </html>
